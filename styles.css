@@ -280,7 +280,6 @@ h6 {
 }
 
 .jo-index-section.jo-projects {
-    /* background-color: #dfe6e9; */
     color: #d4d4d4;
     fill: #d4d4d4
 }
@@ -451,12 +450,6 @@ h6 {
         font-size: 51px;
         margin-top: 5rem
     }
-    .circle-face-container {
-        display: block
-    }
-    .testimonial blockquote {
-        flex: 3
-    }
 }
 
 @media (min-width:768px) {
@@ -475,38 +468,10 @@ h6 {
         font-size: 60px;
         margin-top: 5rem
     }
-    .companies {
-        flex-wrap: wrap;
-        width: 100%
-    }
-    .companies li {
-        align-self: center;
-        display: inline-block;
-        flex: 1;
-        margin: 40px 0 40px 100px
-    }
-    .companies li:first-of-type {
-        margin-left: 0
-    }
-    .testimonial blockquote {
-        flex: 4
-    }
     #jo-hire .btn {
         width: auto
     }
     #jo-hire .btn:last-of-type {
         margin-top: 0
-    }
-}
-
-@media (min-width:992px) {
-    .testimonial blockquote {
-        flex: 5
-    }
-}
-
-@media (min-width:1200px) {
-    .testimonial blockquote {
-        flex: 7
     }
 }
