@@ -108,7 +108,7 @@ and JS (<a href="https://github.com/joshuabamboo/hello">view source</a>)</small>
       let funFacts = [
         {
           text: "I did karaoke with Shaggy once &#129335;",
-          link:  ""
+          link:  "",
         },
         {
           text: "I was once in a Dairy Queen commercial",
@@ -124,15 +124,18 @@ and JS (<a href="https://github.com/joshuabamboo/hello">view source</a>)</small>
         }
       ];
       let randomFunFact = funFacts[Math.floor(Math.random() * funFacts.length)];
-      console.log({randomFunFact});
       document.getElementById("fun-fact-main").innerHTML = randomFunFact.text
       document.getElementById("fun-fact").innerHTML = randomFunFact.text
 
       document.getElementById("fun-fact").addEventListener("click", function(e){
         e.preventDefault()
-        let randomFunFact = funFacts[Math.floor(Math.random() * funFacts.length)];
-        document.getElementById("fun-fact-main").innerHTML = randomFunFact.text
-        document.getElementById("fun-fact").innerHTML = randomFunFact.text
+        let nextRandomFact
+        do {
+          nextRandomFact = funFacts[Math.floor(Math.random() * funFacts.length)];
+        } while (randomFunFact.text === nextRandomFact.text);
+        document.getElementById("fun-fact-main").innerHTML = nextRandomFact.text
+        document.getElementById("fun-fact").innerHTML = nextRandomFact.text
+        randomFunFact = nextRandomFact
       });
     })();
   </script>
