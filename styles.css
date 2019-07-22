@@ -366,7 +366,7 @@ h6 {
 }
 
 .jo-index-section.jo-projects {
-    background-color: ##dfe6e9;
+    /* background-color: #dfe6e9; */
     color: #d4d4d4;
     fill: #d4d4d4
 }
@@ -407,7 +407,7 @@ h6 {
     z-index: 1071
 }
 
-.btn-jo-red,
+.btn-jo-blue,
 .btn-jo-white {
     font-weight: 300
 }
@@ -417,25 +417,28 @@ h6 {
     color: #fff
 }
 
-.btn-jo-red {
+.btn-jo-blue {
     background-color: #209CEE;
-    color: #000
+    color: #FFF
 }
 
-.btn-jo-red:hover {
-    background-color: #d82400;
-    color: #000
+.btn-jo-blue:hover {
+    background-color: #74b9ff;
+    color: #ecf0f9;
+    border-color: #209CEE;
+
 }
 
-.btn-jo-red-outline {
+.btn-jo-blue-outline {
     background-color: #fff;
     border-color: #209CEE;
     color: #209CEE
 }
 
-.btn-jo-red-outline:hover {
-    border-color: #941900;
-    color: #941900
+.btn-jo-blue-outline:hover {
+    background-color: #ecf0f9;
+    border-color: #74b9ff;
+    color: #74b9ff
 }
 
 .jo-index-section {
