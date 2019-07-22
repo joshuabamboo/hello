@@ -41,9 +41,6 @@ body {
     h2 {
         page-break-after: avoid
     }
-    .navbar {
-        display: none
-    }
 }
 
 *,
@@ -199,81 +196,6 @@ h2 {
     font-size: 1.25rem
 }
 
-.nav-link {
-    display: block;
-    padding: .5rem 1rem
-}
-
-.nav-link:focus,
-.nav-link:hover {
-    text-decoration: none
-}
-
-.navbar {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding: .5rem 1rem
-}
-
-.navbar-brand {
-    display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap
-}
-
-.navbar-brand:focus,
-.navbar-brand:hover {
-    text-decoration: none
-}
-
-.navbar-nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none
-}
-
-.navbar-nav .nav-link {
-    padding-right: 0;
-    padding-left: 0
-}
-
-.navbar-expand {
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -ms-flex-pack: start;
-    justify-content: flex-start
-}
-
-.navbar-expand .navbar-nav {
-    -ms-flex-direction: row;
-    flex-direction: row
-}
-
-.navbar-expand .navbar-nav .nav-link {
-    padding: .5rem .75rem
-}
-
-.d-none {
-    display: none!important
-}
-
 @media (min-width:768px) {
     .d-md-flex {
         display: -ms-flexbox!important;
@@ -351,18 +273,10 @@ h6 {
     text-transform: uppercase
 }
 
-.jo-main,
-.jo-navbar,
-.jo-navbar a,
-.jo-navbar rect {
+.jo-main {
     background-color: #209CEE;
     color: #000;
     fill: #000
-}
-
-.jo-index-section.jo-testimonials {
-    background-color: #d4d4d4;
-    color: #2637dd
 }
 
 .jo-index-section.jo-projects {
@@ -389,28 +303,6 @@ h6 {
 
 #jo-hire .btn:last-of-type {
     margin-top: 1rem
-}
-
-.avatar-container {
-    border-radius: 50%;
-    float: right;
-    height: 150px;
-    margin: 0 auto 2rem;
-    overflow: hidden;
-    position: relative;
-    width: 150px
-}
-
-.avatar-container img {
-    left: -63px;
-    position: absolute;
-    top: -18px
-}
-
-.jo-navbar {
-    min-height: 4rem;
-    top: 0;
-    z-index: 1071
 }
 
 .btn-jo-blue,
@@ -532,88 +424,12 @@ h6 {
     border-bottom: 0px!important
 }
 
-.companies img,
-.trusted-by-header {
-    opacity: .6
-}
-
-.contact,
-.trusted-by-header {
+.contact {
     text-align: center
 }
 
 .work-together {
     margin-bottom: 40px
-}
-
-.companies li {
-    margin-bottom: 20px;
-    text-align: center
-}
-
-.companies img {
-    filter: gray;
-    height: 45px;
-    -webkit-transition: all .6s ease;
-    -webkit-backface-visibility: hidden;
-    -webkit-filter: grayscale(100%) brightness(60%) contrast(250%)
-}
-
-.companies li:last-of-type img {
-    height: 50px
-}
-
-.circle-face {
-    border-radius: 50%;
-    height: 100px;
-    overflow: hidden;
-    width: 100px
-}
-
-.circle-face-container {
-    display: none;
-    flex: 1
-}
-
-.testimonial {
-    margin-top: 2rem
-}
-
-.testimonial:first-of-type {
-    margin-top: 0
-}
-
-.testimonial blockquote {
-    flex: 1
-}
-
-.testimonial blockquote {
-    font-style: italic;
-    margin-left: 2rem;
-    position: relative
-}
-
-.testimonial:nth-child(even) blockquote {
-    margin-right: 2rem
-}
-
-.testimonial blockquote::before {
-    content: "\201C";
-    display: block;
-    font-size: 4rem;
-    left: -4rem;
-    position: absolute;
-    top: -20px
-}
-
-.testimonial blockquote cite {
-    font-size: .875rem;
-    display: block;
-    margin-top: .25rem
-}
-
-.testimonial blockquote cite::before {
-    content: "\2015 \2009"
 }
 
 .contact {
