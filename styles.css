@@ -377,6 +377,12 @@ h6 {
     padding: 3px
 }
 
+.fake-link {
+    background-color: #d4d4d4;
+    color: #209CEE;
+    padding: 3px
+}
+
 #jo-hire .btn {
     width: 100%
 }
