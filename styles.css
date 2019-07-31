@@ -304,14 +304,8 @@ h6 {
     margin-top: 1rem
 }
 
-.btn-jo-blue,
-.btn-jo-white {
+.btn-jo-blue {
     font-weight: 300
-}
-
-.btn-jo-white {
-    border-color: #fff;
-    color: #fff
 }
 
 .btn-jo-blue {
